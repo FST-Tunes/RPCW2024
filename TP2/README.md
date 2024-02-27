@@ -1,10 +1,16 @@
-# TPC2
+# Ontologia de Escola de música
 
-### Resumo
+ - Data: 26/02/2024
+ - Autor: João Antunes Lourenço
+ - UC: Representação e Processamento de Conhecimento na Web
+
+
+
+## Resumo
 
 Após uma primeira análise do dataset, foram encontrados alguns possíveis erros, sendo que alguns dos alunos estavam a frequentar cursos que não existiam. Sendo assim, foi criado o script [`cleaner.py`](cleaner.py), usado para corrigir o campo "curso" nos alunos que frequentavam os cursos "CS1" até ao "CS22", substituindo estes por "CB1" até "CB22". Esta decisão foi feita, pois, por exemplo, o suposto curso "CS1" era para alunos de Clarinete, assim como o curso "CB1", sendo assim estes seriam typos.
 
-## Ontologia
+### Ontologia
 
 Existem 3 classes, com as seguintes data properties:
 
@@ -38,7 +44,7 @@ Foram criadas ainda 4 object properties, cada uma com respetivo domain e range:
  - instrumento_ensinado_por_curso: Inverso de curso_ensina_instrumento
 
 
-### Ficheiros
+## Ficheiros
 
  - [`escola_musica.json`](escola_musica.json): Dados fornecidos pelo professor;
 
